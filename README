@@ -36,10 +36,10 @@ The derivative folder is structured as follows:
 
 - derivative
 
- - ***task-BCI.dat:** BCI2000-compatible file containing the ECoG recording.
- - ***task-ADM.csv:** ADM encoding of the ECoG recording.
- - ***task-SNN.csv:** SNN encoding of the ECoG recording.
- - ***task-EV.cvs:**  Annotations of the detected epileptiform patterns in the ECoG recording.
+ - **task-BCI.dat:* BCI2000-compatible file containing the ECoG recording.
+ - **task-ADM.csv:* ADM encoding of the ECoG recording.
+ - **task-SNN.csv:* SNN encoding of the ECoG recording.
+ - **task-EV.cvs:*  Annotations of the detected epileptiform patterns in the ECoG recording.
 
 ## Data Formats
 
@@ -67,8 +67,8 @@ The SNN file is formatted as follows:
  - _time_: Time at which the SNN neuron activated.
  - _neuronId_: Number id of the SNN neuron. (referring to DYNAP-SE numbering convention from 0 to 1024) 
  - _neuronCounter_: Number id of the SNN neuron. (referring to sequential numbering from 0 to 40)
- - _moduleName_: Neural population (ACC_4_0; ACC_0_4), band (EEG; HFO) and module number (ch 0-7) of the neuron.
-  
+ - _moduleName_: Population (ACC_4_0; ACC_0_4), band (EEG; HFO) and module number (ch 0-7) of the neuron.
+ 
   - ACC_4_0 = ACC UP
   - ACC_0_4 = ACC DN
 
