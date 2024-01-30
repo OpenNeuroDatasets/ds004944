@@ -23,22 +23,17 @@ The derivative folder is structured as follows:
  - sub-01
 
   - ses-SITUATION1A
-
-   - *task-BCI.dat
-   - *task-EEG.npy
-   - *task-HFO.npy
-   - *task-ADM.csv
-   - *task-SNN.npy
-   - *task-EV.csv
+   * task-BCI.dat
+   * task-ADM.csv
+   * task-SNN.csv
+   * task-EV.csv
 
   - ses-SITUATION2A
 
-   - *task-BCI.dat
-   - *task-EEG.npy
-   - *task-HFO.npy
-   - *task-ADM.csv
-   - *task-SNN.npy
-   - *task-EV.csv
+   * task-BCI.dat
+   * task-ADM.csv
+   * task-SNN.csv
+   * task-EV.csv
 
  - sub-02
 
