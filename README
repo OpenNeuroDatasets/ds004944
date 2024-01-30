@@ -22,18 +22,31 @@ The raw data is structured as follows:
 
  - sub-01
   - ses-SITUATION1A
+
    - *task-BCI.dat
+
    - *task-EEG.npy
+
    - *task-HFO.npy
+
    - *task-ADM.csv
+
    - *task-SNN.npy
+
    - *task-EV.csv
+
   - ses-SITUATION2A
+
    - *task-BCI.dat
+
    - *task-EEG.npy
+
    - *task-HFO.npy
+
    - *task-ADM.csv
+
    - *task-SNN.npy
+
    - *task-EV.csv
  - sub-02
   - ...
@@ -92,13 +105,13 @@ It can be streamed in real-time using the 'FilePlayback' BCI2000 module.
 
 The ADM file is formatted as follows:
 
- - pulseType: -1 for DN pulse, +1 for UP pulse.
+ - _pulseType_: -1 for DN pulse, +1 for UP pulse.
 
- - pulseTime: Time at which the pulse occurred.
+ - _pulseTime_: Time at which the pulse occurred.
 
- - channel: Channel in which the pulse occurred.
+ - _channel_: Channel in which the pulse occurred.
 
- - band: 0 for EEG band, 1 for HFO band
+ - _band_: 0 for EEG band, 1 for HFO band
 
 ### task-SNN.csv
 
