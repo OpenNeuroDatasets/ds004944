@@ -20,31 +20,21 @@ The annotations of the epileptiform patterns detected with the online neuromorph
 
 The derivative folder is structured as follows:
 
- - sub-01
+ - sub-*
 
   - ses-SITUATION1A
-   * task-BCI.dat
-   * task-ADM.csv
-   * task-SNN.csv
-   * task-EV.csv
+
+   - *task-BCI.dat
+   - *task-ADM.csv
+   - *task-SNN.csv
+   - *task-EV.csv
 
   - ses-SITUATION2A
 
-   * task-BCI.dat
-   * task-ADM.csv
-   * task-SNN.csv
-   * task-EV.csv
-
- - sub-02
-
-  - ...
-  
- - ...
-    
- - sub-22
-
-  - ...
-
+   - *task-BCI.dat
+   - *task-ADM.csv
+   - *task-SNN.csv
+   - *task-EV.csv
 
 ### File Descriptions
 
