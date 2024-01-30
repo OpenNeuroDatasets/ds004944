@@ -57,11 +57,8 @@ It can be streamed in real-time using the 'FilePlayback' BCI2000 module.
 The ADM file is formatted as follows:
 
  - _pulseType_: -1 for DN pulse, +1 for UP pulse.
-
  - _pulseTime_: Time at which the pulse occurred.
-
  - _channel_: Channel in which the pulse occurred.
-
  - _band_: 0 for EEG band, 1 for HFO band
 
 ### task-SNN.csv
@@ -69,19 +66,14 @@ The ADM file is formatted as follows:
 The SNN file is formatted as follows:
 
  - _time_: Time at which the SNN neuron activated.
-
  - _neuronId_: Number id of the SNN neuron. (referring to DYNAP-SE numbering convention from 0 to 1024) 
-
  - _neuronCounter_: Number id of the SNN neuron. (referring to sequential numbering from 0 to 40)
-
  - _moduleName_: Neural population (ACC_4_0; ACC_0_4), band (EEG; HFO) and module number (ch 0-7) of the neuron.
 
   * ACC_4_0 = ACC UP
-
   * ACC_0_4 = ACC DN
 
  - _moduleId_: Module number (0-7).
-
  - _channelId_: Channel for which the SNN neuron activated.
 
 ### task-EV.csv
@@ -89,9 +81,7 @@ The SNN file is formatted as follows:
 The EV file contains annotations of the detected epileptiform patterns with the following format:
 
  - _time_: time of the detected event.
-
  - _channelId_: channel id of the detected event.
-
  - _location_:  channel name of the detected event.
 
 ## Contact Information
