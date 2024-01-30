@@ -65,8 +65,8 @@ The ADM file is formatted as follows:
 The SNN file is formatted as follows:
 
  - _time_: Time at which the SNN neuron activated.
- - _neuronId_: Number id of the SNN neuron (referring to DYNAP-SE numbering convention from 0 to 1024). 
- - _neuronCounter_: Number id of the SNN neuron (referring to sequential numbering from 0 to 40).
+ - _neuronId_: Number id of the SNN neuron (DYNAP-SE numbering from 0 to 1024). 
+ - _neuronCounter_: Number id of the SNN neuron (sequential numbering from 0 to 40).
  - _moduleName_: Population (ACC_4_0; ACC_0_4), band (EEG; HFO) and module number (ch 0-7) of the neuron.
    - ACC_4_0 = ACC UP
    - ACC_0_4 = ACC DN
