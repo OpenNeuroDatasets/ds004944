@@ -1,4 +1,0 @@
-name	type	units	low_cutoff	high_cutoff	sampling_frequency
-3-4	ECOG	μV	800	1	2000
-4-5	ECOG	μV	800	1	2000
-5-6	ECOG	μV	800	1	2000
