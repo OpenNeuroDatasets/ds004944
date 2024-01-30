@@ -15,7 +15,7 @@
         "Johannes Sarnthein"
     ],
     "Acknowledgements": "We acknowledge grants awarded by the Swiss National Science Foundation(funded by the SNSF 204651 to JS and GI with GR as project partner) and by the European Research Council(ERC starting grant 803880 to MZ that funded MZ, ES, MvtK). The funders had no role in the design or analysis of the study.",
-    "HowToAcknowledge": "Please cite this paper: https://doi.org/10.21203/rs.3.rs-3591328/v1",
+    "HowToAcknowledge": "If using the raw data, please cite: https://doi.org/10.1016/j.clinph.2019.07.008\nIf using the derivatives, please cite: https://doi.org/10.21203/rs.3.rs-3591328/v1",
     "Funding": [
         "Swiss National Science Foundation, SNSF 204651",
         "European Research Council, ERC 803880"
