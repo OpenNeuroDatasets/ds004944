@@ -18,71 +18,36 @@ The annotations of the epileptiform patterns detected with the online neuromorph
  
 ## Dataset Structure
 
-The raw data is structured as follows:
-
- - sub-01
-
-  - ses-SITUATION1A
-
-   - *task-BCI.dat
-
-   - *task-EEG.npy
-
-   - *task-HFO.npy
-
-   - *task-ADM.csv
-
-   - *task-SNN.npy
-
-   - *task-EV.csv
-
-  - ses-SITUATION2A
-
-   - *task-BCI.dat
-
-   - *task-EEG.npy
-
-   - *task-HFO.npy
-
-   - *task-ADM.csv
-
-   - *task-SNN.npy
-
-   - *task-EV.csv
-
- - sub-02
-
-  - ...
-  
- - ...
-    
- - sub-22
-  - ...
-
-
 The derivative folder is structured as follows:
 
  - sub-01
+
   - ses-SITUATION1A
+
    - *task-BCI.dat
    - *task-EEG.npy
    - *task-HFO.npy
    - *task-ADM.csv
    - *task-SNN.npy
    - *task-EV.csv
+
   - ses-SITUATION2A
+
    - *task-BCI.dat
    - *task-EEG.npy
    - *task-HFO.npy
    - *task-ADM.csv
    - *task-SNN.npy
    - *task-EV.csv
+
  - sub-02
+
   - ...
   
  - ...
     
  - sub-22
+
   - ...
 
 
@@ -120,6 +85,7 @@ The ADM file is formatted as follows:
 ### task-SNN.csv
 
 The SNN file is formatted as follows:
+
  - _time_: Time at which the SNN neuron activated.
 
  - _neuronId_: Number id of the SNN neuron. (referring to DYNAP-SE numbering convention from 0 to 1024) 
@@ -128,9 +94,9 @@ The SNN file is formatted as follows:
 
  - _moduleName_: Neural population (ACC_4_0; ACC_0_4), band (EEG; HFO) and module number (ch 0-7) of the neuron.
 
-  - ACC_4_0 = ACC UP
+  * ACC_4_0 = ACC UP
 
-  - ACC_0_4 = ACC DN
+  * ACC_0_4 = ACC DN
 
  - _moduleId_: Module number (0-7).
 
