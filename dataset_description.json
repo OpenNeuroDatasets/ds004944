@@ -1,0 +1,33 @@
+{
+    "Name": "Dataset of BCI2000-compatible intraoperative ECoG with neuromorphic encoding",
+    "BIDSVersion": "1.4.0",
+    "License": "CC0",
+    "Authors": [
+        "Filippo Costa",
+        "Eline Schaft",
+        "Geertjan Huiskamp",
+        "Erik Aarnoutse",
+        "Maryse van ’t Klooster",
+        "Niklaus Krayenbühl",
+        "Georgia Ramantani",
+        "Maeike Zijlmans",
+        "Giacomo Indiveri",
+        "Johannes Sarnthein"
+    ],
+    "Acknowledgements": "We acknowledge grants awarded by the Swiss National Science Foundation(funded by the SNSF 204651 to JS and GI with GR as project partner) and by the European Research Council(ERC starting grant 803880 to MZ that funded MZ, ES, MvtK). The funders had no role in the design or analysis of the study.",
+    "HowToAcknowledge": "Please cite this paper: https://doi.org/10.21203/rs.3.rs-3591328/v1",
+    "Funding": [
+        "Swiss National Science Foundation, SNSF 204651",
+        "European Research Council, ERC 803880"
+    ],
+    "EthicsApprovals": [
+        "The collection of patient data and their analysis was approved and performed in accordance with the guidelines",
+        "and regulations of the local research ethics committee (Kantonale Ethikkommission Zürich 2018–02171).",
+        "All patients and/or their parents provided informed consent to reuse their clinical data for research purposes."
+    ],
+    "ReferencesAndLinks": [
+        "Filippo Costa, Eline Schaft, Geertjan Huiskamp et al. Robust compression and detection of epileptiform patterns in ECoG using a real-time spiking neural network hardware framework, 20 November 2023, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-3591328/v1]",
+        ""
+    ],
+    "DatasetDOI": "add doi from openNeuro"
+}
