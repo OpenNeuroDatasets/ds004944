@@ -23,18 +23,15 @@ The derivative folder is structured as follows:
  - sub-*
 
   - ses-SITUATION1A
-
-   - *task-BCI.dat
-   - *task-ADM.csv
-   - *task-SNN.csv
-   - *task-EV.csv
-
+    - *task-BCI.dat
+    - *task-ADM.csv
+    - *task-SNN.csv
+    - *task-EV.csv
   - ses-SITUATION2A
-
-   - *task-BCI.dat
-   - *task-ADM.csv
-   - *task-SNN.csv
-   - *task-EV.csv
+    - *task-BCI.dat
+    - *task-ADM.csv
+    - *task-SNN.csv
+    - *task-EV.csv
 
 ### File Descriptions
 
@@ -42,7 +39,7 @@ The derivative folder is structured as follows:
 - derivative
  - ***task-BCI.dat:** BCI2000-compatible file containing the ECoG recording.
  - ***task-ADM.csv:** ADM encoding of the ECoG recording.
- - ***task-SNN.npy:** SNN encoding of the ECoG recording.
+ - ***task-SNN.csv:** SNN encoding of the ECoG recording.
  - ***task-EV.cvs:**  Annotations of the detected epileptiform patterns in the ECoG recording.
 
 ## Data Formats
