@@ -21,6 +21,7 @@ The annotations of the epileptiform patterns detected with the online neuromorph
 The raw data is structured as follows:
 
  - sub-01
+
   - ses-SITUATION1A
 
    - *task-BCI.dat
@@ -48,7 +49,9 @@ The raw data is structured as follows:
    - *task-SNN.npy
 
    - *task-EV.csv
+
  - sub-02
+
   - ...
   
  - ...
@@ -99,6 +102,7 @@ Details of the neuromorphic processing pipeline can be found at [https://doi.org
 ### task-BCI.dat
 
 The BCI2000-compatible file contains the raw ECoG recording.
+
 It can be streamed in real-time using the 'FilePlayback' BCI2000 module.
 
 ### task-ADM.csv
@@ -116,31 +120,31 @@ The ADM file is formatted as follows:
 ### task-SNN.csv
 
 The SNN file is formatted as follows:
- - time: Time at which the SNN neuron activated.
+ - _time_: Time at which the SNN neuron activated.
 
- - neuronId: Number id of the SNN neuron. (referring to DYNAP-SE numbering convention from 0 to 1024) 
+ - _neuronId_: Number id of the SNN neuron. (referring to DYNAP-SE numbering convention from 0 to 1024) 
 
- - neuronCounter: Number id of the SNN neuron. (referring to sequential numbering from 0 to 40)
+ - _neuronCounter_: Number id of the SNN neuron. (referring to sequential numbering from 0 to 40)
 
- - moduleName: Neural population (ACC_4_0; ACC_0_4), band (EEG; HFO) and module number (ch 0-7) of the neuron.
+ - _moduleName_: Neural population (ACC_4_0; ACC_0_4), band (EEG; HFO) and module number (ch 0-7) of the neuron.
 
   - ACC_4_0 = ACC UP
 
   - ACC_0_4 = ACC DN
 
- - moduleId: Module number (0-7).
+ - _moduleId_: Module number (0-7).
 
- - channelId: Channel for which the SNN neuron activated.
+ - _channelId_: Channel for which the SNN neuron activated.
 
 ### task-EV.csv
 
 The EV file contains annotations of the detected epileptiform patterns with the following format:
 
- - time: time of the detected event.
+ - _time_: time of the detected event.
 
- - channelId: channel id of the detected event.
+ - _channelId_: channel id of the detected event.
 
- - location:  channel name of the detected event.
+ - _location_:  channel name of the detected event.
 
 ## Contact Information
 
