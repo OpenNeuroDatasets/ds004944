@@ -11,8 +11,10 @@ The ADM-encoded data are processed by a hardware Spiking Neural Network (SNN). T
 The code to perform preprocessing and ADM encoding in BCI2000, together with the code to detect epileptiform patterns from SNN-encoded data, are provided at [https://github.com/CostaFilippo/BCI2000_DYNAP-SE.git](https://github.com/CostaFilippo/BCI2000_DYNAP-SE.git). 
 
 In a previous publication, this dataset has been analyzed with a offline software algorithm: [https://doi.org/10.1016/j.clinph.2019.07.008](https://doi.org/10.1016/j.clinph.2019.07.008). 
-The annotations of the epileptiform patterns detected with the offline approach are provided at: sub-*/ses-SITUATION*/sub-*_ses-SITUATION*_task-acute_events.tsv.
-The annotations of the epileptiform patterns detected with the online neuromorphic processing are provided at derivative/sub-*/ses-SITUATION*/sub-*_ses-SITUATION*_task-EV.csv.
+
+The annotations of the epileptiform patterns detected with the offline approach are provided at: sub-\*/ses-SITUATION\*/sub-\*_ses-SITUATION\*_task-acute_events.tsv.
+
+The annotations of the epileptiform patterns detected with the online neuromorphic processing are provided at derivative/sub-\*/ses-SITUATION\*/sub-\*_ses-SITUATION*_task-EV.csv.
  
 ## Dataset Structure
 
@@ -89,21 +91,32 @@ It can be streamed in real-time using the 'FilePlayback' BCI2000 module.
 ### task-ADM.csv
 
 The ADM file is formatted as follows:
+
  - pulseType: -1 for DN pulse, +1 for UP pulse.
+
  - pulseTime: Time at which the pulse occurred.
+
  - channel: Channel in which the pulse occurred.
+
  - band: 0 for EEG band, 1 for HFO band
 
 ### task-SNN.csv
 
 The SNN file is formatted as follows:
  - time: Time at which the SNN neuron activated.
+
  - neuronId: Number id of the SNN neuron. (referring to DYNAP-SE numbering convention from 0 to 1024) 
+
  - neuronCounter: Number id of the SNN neuron. (referring to sequential numbering from 0 to 40)
+
  - moduleName: Neural population (ACC_4_0; ACC_0_4), band (EEG; HFO) and module number (ch 0-7) of the neuron.
+
   - ACC_4_0 = ACC UP
+
   - ACC_0_4 = ACC DN
+
  - moduleId: Module number (0-7).
+
  - channelId: Channel for which the SNN neuron activated.
 
 ### task-EV.csv
@@ -111,7 +124,9 @@ The SNN file is formatted as follows:
 The EV file contains annotations of the detected epileptiform patterns with the following format:
 
  - time: time of the detected event.
+
  - channelId: channel id of the detected event.
+
  - location:  channel name of the detected event.
 
 ## Contact Information
