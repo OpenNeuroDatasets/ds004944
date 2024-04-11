@@ -4,7 +4,7 @@ This dataset comprises recordings of intraoperative Electrocorticography (ECoG) 
 For each patient, the dataset is organized into pre-resection recording (referred to as SITUATION1A) and post-resection recording (referred to as SITUATION2A).
 
 We provide raw ECoG recordings for each patient and a derivative folder that contains all the main processing stages 
-performed with our neuromorphic processing pipeline: [https://doi.org/10.21203/rs.3.rs-3591328/v1](https://doi.org/10.21203/rs.3.rs-3591328/v1).
+performed with our neuromorphic processing pipeline: [https://doi.org/10.1038/s41467-024-47495-y](https://doi.org/10.1038/s41467-024-47495-y).
 
 The pipeline preprocesses ECoG recordings in real-time and performs Asynchronous Delta Modulator (ADM) encoding with a custom BCI2000 module.
 The ADM-encoded data are processed by a hardware Spiking Neural Network (SNN). The SNN-encoded data are then used to detect epileptiform patterns in the ECoG.
@@ -43,7 +43,7 @@ The derivative folder is structured as follows:
 
 ## Data Formats
 
-Details of the neuromorphic processing pipeline can be found at [https://doi.org/10.21203/rs.3.rs-3591328/v1](https://doi.org/10.21203/rs.3.rs-3591328/v1).
+Details of the neuromorphic processing pipeline can be found at [https://doi.org/10.1038/s41467-024-47495-y](https://doi.org/10.1038/s41467-024-47495-y).
 
 #### task-BCI.dat
 
