@@ -24,5 +24,5 @@
         "Ece Boran, Georgia Ramantani, Niklaus Krayenbühl, Maxine Schreiber, Kristina König, Tommaso Fedele, Johannes Sarnthein **High-density ECoG improves the detection of high frequency oscillations that predict seizure outcome**, _Clinical Neurophysiology_ [https://doi.org/10.1016/j.clinph.2019.07.008]",
         "Filippo Costa, Eline Schaft, Geertjan Huiskamp, Erik Aarnoutse, Maryse van’t Klooster, Niklaus Krayenbühl, Georgia Ramantani, Maeike Zijlmans, Giacomo Indiveri, Johannes Sarnthein, **Robust compression and detection of epileptiform patterns in ECoG using a real-time spiking neural network hardware framework**, _Nature Communications_ [https://doi.org/10.1038/s41467-024-47495-y]"
     ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds004944.v1.0.1"
+    "DatasetDOI": "doi:10.18112/openneuro.ds004944.v1.1.0"
 }
